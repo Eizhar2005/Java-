@@ -13,18 +13,18 @@
 // console.log(a);
 // a = 12;
 
-var x=1;
-{
-    var x=2;
-    console.log(x);
-}
+// var x=1;
+// {
+//     var x=2;
+//     console.log(x);
+// }
 
-let a=1;
-{
-    let a=2;
-    console.log( "INSIDE:",a);
-}
-console.log("OUTSIDE:",a);
+// let a=1;
+// {
+//     let a=2;
+//     console.log( "INSIDE:",a);
+// }
+// console.log("OUTSIDE:",a);
 //premivitive data types
 //number,string,boolean,undefined,null,symbol
 //reference data types
