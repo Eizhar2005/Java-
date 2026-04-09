@@ -21,6 +21,7 @@ body {
   border-radius: 10px;
   background-color: #ffffff;
   padding: 10px;
+  overflow: hidden;
 }
 .container img {
   width: 100%;
@@ -28,5 +29,16 @@ body {
   object-fit: cover;
   object-position: top;
   border-radius: 10px;
+
+}
+.container i {
+  color: #ff4545;
+  font-size: 75px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: all ease 0.4s;
 
 }
