@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: POPPINS, sans-serif;
+  color: aliceblue;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+} 
+#main
+{
+  width: 100%;
+  height: 100%;
+background-color: #111;
+position: relative;
+}
+.elm{
+height: 130px;
+width: 100%;
+/* background-color: antiquewhite; */
+border-bottom: 2px solid white;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+.elm h1{
+  font-size: 6vw;
+}
+.elm img{
+    
+}
